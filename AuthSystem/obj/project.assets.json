@@ -11020,19 +11020,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\CodAffection\\.nuget\\packages\\": {}
+    "C:\\Users\\Aleni\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\YouTube\\Videos\\Asp.Net Core\\MVC - SignUp, Login and Role\\Project\\AuthSystem\\AuthSystem\\AuthSystem.csproj",
+      "projectUniqueName": "C:\\Users\\Aleni\\Source\\Repos\\Asp.Net-Core-MVC-Identity\\AuthSystem\\AuthSystem.csproj",
       "projectName": "AuthSystem",
-      "projectPath": "D:\\YouTube\\Videos\\Asp.Net Core\\MVC - SignUp, Login and Role\\Project\\AuthSystem\\AuthSystem\\AuthSystem.csproj",
-      "packagesPath": "C:\\Users\\CodAffection\\.nuget\\packages\\",
-      "outputPath": "D:\\YouTube\\Videos\\Asp.Net Core\\MVC - SignUp, Login and Role\\Project\\AuthSystem\\AuthSystem\\obj\\",
+      "projectPath": "C:\\Users\\Aleni\\Source\\Repos\\Asp.Net-Core-MVC-Identity\\AuthSystem\\AuthSystem.csproj",
+      "packagesPath": "C:\\Users\\Aleni\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Aleni\\Source\\Repos\\Asp.Net-Core-MVC-Identity\\AuthSystem\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\CodAffection\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Aleni\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -11100,7 +11100,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }
