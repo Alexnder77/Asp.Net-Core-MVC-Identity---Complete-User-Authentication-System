@@ -1,0 +1,50 @@
+﻿@model NotBlocket2.Models.Ad
+
+@{
+    ViewData["Title"] = "Edit Ad";
+}
+
+Edit Ad
+@ViewBag.error
+
+<form method="post" action="@Url.Action("EditAd", "NotBlocket")">
+    @Html.AntiForgeryToken()
+
+    @*
+    <div class="form-group">
+        <label for="File">Choose New Image:</label>
+        <input type="file" id="File" name="File" />
+    </div>
+    *@
+    <div class="form-group"> 
+        <label for="Name">Name:</label>
+        <input type="text" class="form-control" id="Name" name="Name" value="@Model.Name">
+         @Html.ValidationMessageFor(model => model.Name, "", new { @class = "text-danger" })
+    </div>
+    <div class="form-group">
+        <label for="Description">Description:</label>
+        <input type="text" class="form-control" id="Description" name="Description" value="@Model.Description">
+
+    </div>
+    <div class="form-group">
+        <label for="Category">Category:</label>
+        <input type="text" class="form-control" id="Category" name="Category" value="@Model.Category">
+
+    </div>
+    <div class="form-group">
+        <label for="Price">Price:</label>
+        <input type="number" class="form-control" id="Price" name="Price" value="@Model.Price">
+        @Html.ValidationMessageFor(model => model.Price, "", new { @class = "text-danger" })
+    </div>
+    <div class="form-group">
+        <label for="Profile_Id">Profile_Id:</label>
+        <input type="number" class="form-control" id="Profile_Id" name="Profile_Id" value="@Model.Profile_Id">
+
+    </div>
+    <div class="form-group">
+        <label for="ImagePath">ImagePath:</label>
+        <input type="text" class="form-control" id="ImagePath" name="ImagePath" value="@Model.ImagePath">
+    </div>
+
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>

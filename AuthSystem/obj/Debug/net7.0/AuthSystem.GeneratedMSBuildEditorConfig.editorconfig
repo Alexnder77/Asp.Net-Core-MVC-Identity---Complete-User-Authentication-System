@@ -9,69 +9,113 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = AuthSystem
 build_property.RootNamespace = AuthSystem
-build_property.ProjectDir = C:\Users\Aleni\Source\Repos\Asp.Net-Core-MVC-Identity\AuthSystem\
+build_property.ProjectDir = C:\Users\Aleni\source\repos\Asp.Net-Core-MVC-Identity\AuthSystem\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Aleni\Source\Repos\Asp.Net-Core-MVC-Identity\AuthSystem
+build_property.MSBuildProjectDirectory = C:\Users\Aleni\source\repos\Asp.Net-Core-MVC-Identity\AuthSystem
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Aleni/Source/Repos/Asp.Net-Core-MVC-Identity/AuthSystem/Areas/Identity/Pages/Account/Login.cshtml]
+[C:/Users/Aleni/source/repos/Asp.Net-Core-MVC-Identity/AuthSystem/Areas/Identity/Pages/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Aleni/Source/Repos/Asp.Net-Core-MVC-Identity/AuthSystem/Areas/Identity/Pages/Account/Register.cshtml]
+[C:/Users/Aleni/source/repos/Asp.Net-Core-MVC-Identity/AuthSystem/Areas/Identity/Pages/Account/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Aleni/Source/Repos/Asp.Net-Core-MVC-Identity/AuthSystem/Areas/Identity/Pages/Account/_ViewImports.cshtml]
+[C:/Users/Aleni/source/repos/Asp.Net-Core-MVC-Identity/AuthSystem/Areas/Identity/Pages/Account/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxfVmlld0ltcG9ydHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Aleni/Source/Repos/Asp.Net-Core-MVC-Identity/AuthSystem/Areas/Identity/Pages/_AuthLayout.cshtml]
+[C:/Users/Aleni/source/repos/Asp.Net-Core-MVC-Identity/AuthSystem/Areas/Identity/Pages/_AuthLayout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX0F1dGhMYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Aleni/Source/Repos/Asp.Net-Core-MVC-Identity/AuthSystem/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
+[C:/Users/Aleni/source/repos/Asp.Net-Core-MVC-Identity/AuthSystem/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Aleni/Source/Repos/Asp.Net-Core-MVC-Identity/AuthSystem/Areas/Identity/Pages/_ViewImports.cshtml]
+[C:/Users/Aleni/source/repos/Asp.Net-Core-MVC-Identity/AuthSystem/Areas/Identity/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Aleni/Source/Repos/Asp.Net-Core-MVC-Identity/AuthSystem/Areas/Identity/Pages/_ViewStart.cshtml]
+[C:/Users/Aleni/source/repos/Asp.Net-Core-MVC-Identity/AuthSystem/Areas/Identity/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Aleni/Source/Repos/Asp.Net-Core-MVC-Identity/AuthSystem/Views/Home/Index.cshtml]
+[C:/Users/Aleni/source/repos/Asp.Net-Core-MVC-Identity/AuthSystem/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Aleni/Source/Repos/Asp.Net-Core-MVC-Identity/AuthSystem/Views/Home/Privacy.cshtml]
+[C:/Users/Aleni/source/repos/Asp.Net-Core-MVC-Identity/AuthSystem/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Aleni/Source/Repos/Asp.Net-Core-MVC-Identity/AuthSystem/Views/Shared/Error.cshtml]
+[C:/Users/Aleni/source/repos/Asp.Net-Core-MVC-Identity/AuthSystem/Views/NotBlocket/AdsView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm90QmxvY2tldFxBZHNWaWV3LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Aleni/source/repos/Asp.Net-Core-MVC-Identity/AuthSystem/Views/NotBlocket/CreateAccount.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm90QmxvY2tldFxDcmVhdGVBY2NvdW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Aleni/source/repos/Asp.Net-Core-MVC-Identity/AuthSystem/Views/NotBlocket/CreateAd.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm90QmxvY2tldFxDcmVhdGVBZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Aleni/source/repos/Asp.Net-Core-MVC-Identity/AuthSystem/Views/NotBlocket/EditAd.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm90QmxvY2tldFxFZGl0QWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Aleni/source/repos/Asp.Net-Core-MVC-Identity/AuthSystem/Views/NotBlocket/Editprofile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm90QmxvY2tldFxFZGl0cHJvZmlsZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Aleni/source/repos/Asp.Net-Core-MVC-Identity/AuthSystem/Views/NotBlocket/Editprofile2.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm90QmxvY2tldFxFZGl0cHJvZmlsZTIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Aleni/source/repos/Asp.Net-Core-MVC-Identity/AuthSystem/Views/NotBlocket/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm90QmxvY2tldFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Aleni/source/repos/Asp.Net-Core-MVC-Identity/AuthSystem/Views/NotBlocket/ProfilesView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm90QmxvY2tldFxQcm9maWxlc1ZpZXcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Aleni/source/repos/Asp.Net-Core-MVC-Identity/AuthSystem/Views/NotBlocket/SearchResults.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm90QmxvY2tldFxTZWFyY2hSZXN1bHRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Aleni/source/repos/Asp.Net-Core-MVC-Identity/AuthSystem/Views/NotBlocket/SelectWithDataReader.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm90QmxvY2tldFxTZWxlY3RXaXRoRGF0YVJlYWRlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Aleni/source/repos/Asp.Net-Core-MVC-Identity/AuthSystem/Views/NotBlocket/Start.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm90QmxvY2tldFxTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Aleni/source/repos/Asp.Net-Core-MVC-Identity/AuthSystem/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Aleni/Source/Repos/Asp.Net-Core-MVC-Identity/AuthSystem/Views/Shared/_LoginPartial.cshtml]
+[C:/Users/Aleni/source/repos/Asp.Net-Core-MVC-Identity/AuthSystem/Views/Shared/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Aleni/Source/Repos/Asp.Net-Core-MVC-Identity/AuthSystem/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Aleni/source/repos/Asp.Net-Core-MVC-Identity/AuthSystem/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Aleni/Source/Repos/Asp.Net-Core-MVC-Identity/AuthSystem/Views/_ViewImports.cshtml]
+[C:/Users/Aleni/source/repos/Asp.Net-Core-MVC-Identity/AuthSystem/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Aleni/Source/Repos/Asp.Net-Core-MVC-Identity/AuthSystem/Views/_ViewStart.cshtml]
+[C:/Users/Aleni/source/repos/Asp.Net-Core-MVC-Identity/AuthSystem/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Aleni/Source/Repos/Asp.Net-Core-MVC-Identity/AuthSystem/Views/Shared/_Layout.cshtml]
+[C:/Users/Aleni/source/repos/Asp.Net-Core-MVC-Identity/AuthSystem/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-1ktkr6bxvw

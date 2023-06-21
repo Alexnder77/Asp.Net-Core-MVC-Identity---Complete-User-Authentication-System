@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Aleni\\Source\\Repos\\Asp.Net-Core-MVC-Identity\\AuthSystem\\AuthSystem.csproj": {}
+    "C:\\Users\\Aleni\\source\\repos\\Asp.Net-Core-MVC-Identity\\AuthSystem\\AuthSystem.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Aleni\\Source\\Repos\\Asp.Net-Core-MVC-Identity\\AuthSystem\\AuthSystem.csproj": {
+    "C:\\Users\\Aleni\\source\\repos\\Asp.Net-Core-MVC-Identity\\AuthSystem\\AuthSystem.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Aleni\\Source\\Repos\\Asp.Net-Core-MVC-Identity\\AuthSystem\\AuthSystem.csproj",
+        "projectUniqueName": "C:\\Users\\Aleni\\source\\repos\\Asp.Net-Core-MVC-Identity\\AuthSystem\\AuthSystem.csproj",
         "projectName": "AuthSystem",
-        "projectPath": "C:\\Users\\Aleni\\Source\\Repos\\Asp.Net-Core-MVC-Identity\\AuthSystem\\AuthSystem.csproj",
+        "projectPath": "C:\\Users\\Aleni\\source\\repos\\Asp.Net-Core-MVC-Identity\\AuthSystem\\AuthSystem.csproj",
         "packagesPath": "C:\\Users\\Aleni\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Aleni\\Source\\Repos\\Asp.Net-Core-MVC-Identity\\AuthSystem\\obj\\",
+        "outputPath": "C:\\Users\\Aleni\\source\\repos\\Asp.Net-Core-MVC-Identity\\AuthSystem\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Aleni\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -61,6 +61,10 @@
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[7.0.4, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.5, )"
             }
           },
           "imports": [

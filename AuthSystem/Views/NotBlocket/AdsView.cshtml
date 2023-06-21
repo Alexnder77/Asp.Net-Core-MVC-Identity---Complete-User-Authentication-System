@@ -1,0 +1,54 @@
+﻿@model NotBlocket2.Models.ViewModelProfileAdsLocation
+
+<h1>Ads</h1>
+@*
+@ViewBag.error
+@ViewBag.errorx
+*@
+
+<div class="row">
+	<div class="form-group col-md-4">
+		<form asp-action="AdsView" method="post">
+			<div class="form-group">
+				<select class="form-control" id="Category" name="Category">
+					@foreach (var category in Model.AdList.Select(x => x.Category).Distinct()) {
+						<option value="@category">@category</option>
+					}
+				</select>
+			</div>
+			<div class="form-group">
+				<input type="submit" value="Apply Filter" class="btn btn-default" />
+			</div>
+		</form>
+	</div>
+</div>
+
+
+<table class="table">
+	<tr>
+		<th>Name</th>
+		<th>Price</th>
+		<th>Description</th>
+		<th>Category</th>
+		<th>Image</th>
+		<th></th>
+
+	</tr>
+	@foreach (NotBlocket2.Models.Ad Ad in Model.FilterdAdList) {
+		<tr>
+			<td>@Ad.Name</td>
+			<td>@Ad.Price</td>
+			<td>@Ad.Description</td>
+			<td>@Ad.Category</td>
+			<td><img src="@Ad.ImagePath" alt="No Image" style="max-width:250px; max-height:150px;"></td>
+		    <td>
+				<button type="button" class="btn btn-warning" onclick="location.href='@Url.Action("EditAd", "NotBlocket", new { id = Ad.Id })'">Edit</button>
+          
+               <button type="button" class="btn btn-danger" onclick="if (confirm('Are you sure you want to delete this Ad?')) { location.href='@Url.Action("DeleteAd", "NotBlocket", new { id = Ad.Id })' }">Delete</button>
+
+            </td>
+		</tr>
+	}
+
+</table>
+

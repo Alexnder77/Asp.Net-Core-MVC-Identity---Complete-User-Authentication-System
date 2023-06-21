@@ -1,0 +1,56 @@
+﻿@model IEnumerable<NotBlocket2.Models.Ad>
+
+@{
+	ViewData["Title"] = "SearchResults";
+}
+<h1>Searchresult</h1>
+
+Search term: @ViewBag.search
+
+sort: @ViewBag.sort
+
+@ViewBag.error
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                <a href="SearchResults?search=@ViewBag.search&sort=Id">
+                @Html.DisplayNameFor(model => model.Id)
+                </a>
+            </th>
+            <th>
+                <a href="SearchResults?search=@ViewBag.search&sort=Name">
+                @Html.DisplayNameFor(model => model.Name)
+                </a>
+            </th>
+            <th>
+                @*Enables sorting by price while keeping the searchterm*@
+
+                <a href="SearchResults?search=@ViewBag.search&sort=Price">
+                    @Html.DisplayNameFor(model => model.Price)
+                </a>
+            </th>
+
+        </tr>
+    </thead>
+    
+    
+    <tbody>
+        @foreach (var item in Model) {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Id)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Price)
+                </td>
+            </tr>
+        }
+    </tbody>
+    
+</table>
+

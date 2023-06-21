@@ -850,3 +850,9 @@ C:\Users\Aleni\Source\Repos\Asp.Net-Core-MVC-Identity\AuthSystem\obj\Debug\net7.
 C:\Users\Aleni\Source\Repos\Asp.Net-Core-MVC-Identity\AuthSystem\obj\Debug\net7.0\AuthSystem.pdb
 C:\Users\Aleni\Source\Repos\Asp.Net-Core-MVC-Identity\AuthSystem\obj\Debug\net7.0\AuthSystem.genruntimeconfig.cache
 C:\Users\Aleni\Source\Repos\Asp.Net-Core-MVC-Identity\AuthSystem\obj\Debug\net7.0\ref\AuthSystem.dll
+C:\Users\Aleni\source\repos\Asp.Net-Core-MVC-Identity\AuthSystem\bin\Debug\net7.0\System.Data.SqlClient.dll
+C:\Users\Aleni\source\repos\Asp.Net-Core-MVC-Identity\AuthSystem\bin\Debug\net7.0\runtimes\win-arm64\native\sni.dll
+C:\Users\Aleni\source\repos\Asp.Net-Core-MVC-Identity\AuthSystem\bin\Debug\net7.0\runtimes\win-x64\native\sni.dll
+C:\Users\Aleni\source\repos\Asp.Net-Core-MVC-Identity\AuthSystem\bin\Debug\net7.0\runtimes\win-x86\native\sni.dll
+C:\Users\Aleni\source\repos\Asp.Net-Core-MVC-Identity\AuthSystem\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Aleni\source\repos\Asp.Net-Core-MVC-Identity\AuthSystem\bin\Debug\net7.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
