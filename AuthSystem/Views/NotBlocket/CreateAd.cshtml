@@ -1,9 +1,7 @@
-﻿
-@using Microsoft.AspNetCore.Identity
+﻿@using Microsoft.AspNetCore.Identity
 @using AuthSystem.Areas.Identity.Data
 
 @model NotBlocket2.Models.Ad
-
 
 @{
     ViewData["Title"] = "CreateAd";
@@ -12,35 +10,29 @@
 
 @ViewBag.error
 
-
-
-<form asp-controller="NotBlocket" asp-action="CreateAd" method="post" enctype="multipart/form-data">
-    @*
-    <div class="form-group">
-        <label for="File">Choose Image:</label>
-        <input type="file" id="file" name="file" required />
-    </div>
-    *@
+<form asp-controller="NotBlocket" asp-action="CreateAd" method="post" enctype="multipart/form-data" class="ad-form">
     <div class="form-group">
         <label for="Name">Name:</label>
-        <input type="text" id="model.Name" asp-for=Name required />
+        <input type="text" id="model.Name" asp-for="Name" required class="form-control" />
     </div>
     <div class="form-group">
         <label for="Description">Description:</label>
-        <input type="text" id="model.Description" asp-for=Description />
+        <input type="text" id="model.Description" asp-for="Description" class="form-control" />
     </div>
     <div class="form-group">
         <label for="Category">Category:</label>
-        <input type="text" id="model.Category" asp-for=Category />
+        <input type="text" id="model.Category" asp-for="Category" class="form-control" />
     </div>
     <div class="form-group">
         <label for="Price">Price:</label>
-        <input type="number" id="model.Price" asp-for=Price required />
+        <input type="number" id="model.Price" asp-for="Price" required class="form-control" />
     </div>
 
-    <input type="hidden" id="UserName" name="UserName" value="@User.Identity.Name" />
-   
+    @if (User.Identity.IsAuthenticated) {
+        <input type="hidden" id="UserName" name="UserName" value="@User.Identity.Name" />
+    }
+
     <div class="form-group">
-        <button type="submit">Upload Ad with Image</button>
+        <button type="submit" class="btn btn-primary">Upload Ad with Image</button>
     </div>
 </form>

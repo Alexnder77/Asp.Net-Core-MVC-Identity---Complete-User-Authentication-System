@@ -82,7 +82,7 @@ namespace NotBlocket2.Controllers {
 
         }
 
-            [HttpGet]
+        [HttpGet]
         public IActionResult DeleteAd(int id) {
             // Remove the row with the specified ID from the database
             AdMethods am = new AdMethods();
@@ -90,7 +90,7 @@ namespace NotBlocket2.Controllers {
             am.DeleteAd(id, out error);
             ViewBag.error = error;
 
-            return RedirectToAction("AdsView");
+            return RedirectToAction("MyAdsView");
         }
 
         [HttpGet]
