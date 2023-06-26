@@ -1,49 +1,75 @@
 ﻿@model NotBlocket2.Models.ViewModelProfileAdsLocation
 
+<style>
+    /* Custom styles */
+    h1 {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .form-group.col-md-4 {
+        margin-bottom: 20px;
+    }
+
+    .table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+    }
+
+        .table th,
+        .table td {
+            padding: 8px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .table th {
+            background-color: #f2f2f2;
+            font-weight: bold;
+        }
+
+        .table img {
+            max-width: 250px;
+            max-height: 150px;
+        }
+</style>
+
 <h1>Ads</h1>
-@*
-@ViewBag.error
-@ViewBag.errorx
-*@
 
 <div class="row">
-	<div class="form-group col-md-4">
-		<form asp-action="AdsView" method="post">
-			<div class="form-group">
-				<select class="form-control" id="Category" name="Category">
-					@foreach (var category in Model.AdList.Select(x => x.Category).Distinct()) {
-						<option value="@category">@category</option>
-					}
-				</select>
-			</div>
-			<div class="form-group">
-				<input type="submit" value="Apply Filter" class="btn btn-default" />
-			</div>
-		</form>
-	</div>
+    <div class="col-md-4">
+        <form asp-action="AdsView" method="post">
+            <div class="form-group">
+                <select class="form-control" id="Category" name="Category">
+                    @foreach (var category in Model.AdList.Select(x => x.Category).Distinct()) {
+                        <option value="@category">@category</option>
+                    }
+                </select>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Apply Filter" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
 </div>
 
-
 <table class="table">
-	<tr>
-		<th>Name</th>
-		<th>Price</th>
-		<th>Description</th>
-		<th>Category</th>
-		<th>Image</th>
-		<th></th>
-
-	</tr>
-	@foreach (NotBlocket2.Models.Ad ad in Model.FilterdAdList) {
-	   <tr>
-		   <td><a href="@Url.Action("AdPage", "NotBlocket", new { adId = ad.Id })">@ad.Name</a></td>
-		   <td>@ad.Price</td>
-		   <td>@ad.Description</td>
-		   <td>@ad.Category</td>
-		   <td><img src="@ad.ImagePath" alt="No Image" style="max-width:250px; max-height:150px;"></td>
-		</tr>
-	}
-
-
+    <tr>
+        <th>Name</th>
+        <th>Price</th>
+        <th>Description</th>
+        <th>Category</th>
+        <th>Image</th>
+        <th></th>
+    </tr>
+    @foreach (NotBlocket2.Models.Ad ad in Model.FilterdAdList) {
+        <tr>
+            <td><a href="@Url.Action("AdPage", "NotBlocket", new { adId = ad.Id })">@ad.Name</a></td>
+            <td>@ad.Price</td>
+            <td>@ad.Description</td>
+            <td>@ad.Category</td>
+            <td><img src="@ad.ImagePath" alt="No Image"></td>
+        </tr>
+    }
 </table>
-

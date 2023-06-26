@@ -56,7 +56,7 @@ namespace NotBlocket2.Controllers {
         }
 
         [HttpPost]
-        public async Task<IActionResult> CreateAd(Ad ad, IFormFile file) {
+        public async Task<IActionResult> CreateAd(Ad ad) {
             AdMethods am = new AdMethods();
             string errorMessage = string.Empty;
             int rowsAffected = 0;
@@ -67,7 +67,7 @@ namespace NotBlocket2.Controllers {
                 return View();
             }
 
-            ad.ImagePath = await am.SaveImageAsync(file);
+            //ad.ImagePath = await am.SaveImageAsync(file);
 
             rowsAffected = await am.InsertAdAsync(ad);
 

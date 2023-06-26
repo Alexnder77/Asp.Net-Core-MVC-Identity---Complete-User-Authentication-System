@@ -381,6 +381,46 @@
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
+      "Id": "C:\\Users\\Aleni\\source\\repos\\Asp.Net-Core-MVC-Identity\\AuthSystem\\wwwroot\\lib\\davidshimjs-qrcodejs-04f46c6\\.gitignore",
+      "PackagePath": "staticwebassets\\lib\\davidshimjs-qrcodejs-04f46c6\\.gitignore"
+    },
+    {
+      "Id": "C:\\Users\\Aleni\\source\\repos\\Asp.Net-Core-MVC-Identity\\AuthSystem\\wwwroot\\lib\\davidshimjs-qrcodejs-04f46c6\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\davidshimjs-qrcodejs-04f46c6"
+    },
+    {
+      "Id": "C:\\Users\\Aleni\\source\\repos\\Asp.Net-Core-MVC-Identity\\AuthSystem\\wwwroot\\lib\\davidshimjs-qrcodejs-04f46c6\\README.md",
+      "PackagePath": "staticwebassets\\lib\\davidshimjs-qrcodejs-04f46c6\\README.md"
+    },
+    {
+      "Id": "C:\\Users\\Aleni\\source\\repos\\Asp.Net-Core-MVC-Identity\\AuthSystem\\wwwroot\\lib\\davidshimjs-qrcodejs-04f46c6\\bower.json",
+      "PackagePath": "staticwebassets\\lib\\davidshimjs-qrcodejs-04f46c6\\bower.json"
+    },
+    {
+      "Id": "C:\\Users\\Aleni\\source\\repos\\Asp.Net-Core-MVC-Identity\\AuthSystem\\wwwroot\\lib\\davidshimjs-qrcodejs-04f46c6\\index-svg.html",
+      "PackagePath": "staticwebassets\\lib\\davidshimjs-qrcodejs-04f46c6\\index-svg.html"
+    },
+    {
+      "Id": "C:\\Users\\Aleni\\source\\repos\\Asp.Net-Core-MVC-Identity\\AuthSystem\\wwwroot\\lib\\davidshimjs-qrcodejs-04f46c6\\index.html",
+      "PackagePath": "staticwebassets\\lib\\davidshimjs-qrcodejs-04f46c6\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\Aleni\\source\\repos\\Asp.Net-Core-MVC-Identity\\AuthSystem\\wwwroot\\lib\\davidshimjs-qrcodejs-04f46c6\\index.svg",
+      "PackagePath": "staticwebassets\\lib\\davidshimjs-qrcodejs-04f46c6\\index.svg"
+    },
+    {
+      "Id": "C:\\Users\\Aleni\\source\\repos\\Asp.Net-Core-MVC-Identity\\AuthSystem\\wwwroot\\lib\\davidshimjs-qrcodejs-04f46c6\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\davidshimjs-qrcodejs-04f46c6\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Aleni\\source\\repos\\Asp.Net-Core-MVC-Identity\\AuthSystem\\wwwroot\\lib\\davidshimjs-qrcodejs-04f46c6\\qrcode.js",
+      "PackagePath": "staticwebassets\\lib\\davidshimjs-qrcodejs-04f46c6\\qrcode.js"
+    },
+    {
+      "Id": "C:\\Users\\Aleni\\source\\repos\\Asp.Net-Core-MVC-Identity\\AuthSystem\\wwwroot\\lib\\davidshimjs-qrcodejs-04f46c6\\qrcode.min.js",
+      "PackagePath": "staticwebassets\\lib\\davidshimjs-qrcodejs-04f46c6\\qrcode.min.js"
+    },
+    {
       "Id": "C:\\Users\\Aleni\\source\\repos\\Asp.Net-Core-MVC-Identity\\AuthSystem\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },

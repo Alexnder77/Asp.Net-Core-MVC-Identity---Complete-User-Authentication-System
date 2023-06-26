@@ -44,10 +44,6 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Aleni/source/repos/Asp.Net-Core-MVC-Identity/AuthSystem/Views/Ad/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRcSW5kZXguY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/Aleni/source/repos/Asp.Net-Core-MVC-Identity/AuthSystem/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -60,10 +56,6 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm90QmxvY2tldFxBZHNWaWV3LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Aleni/source/repos/Asp.Net-Core-MVC-Identity/AuthSystem/Views/NotBlocket/CreateAccount.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm90QmxvY2tldFxDcmVhdGVBY2NvdW50LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/Aleni/source/repos/Asp.Net-Core-MVC-Identity/AuthSystem/Views/NotBlocket/CreateAd.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm90QmxvY2tldFxDcmVhdGVBZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -74,10 +66,6 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/Aleni/source/repos/Asp.Net-Core-MVC-Identity/AuthSystem/Views/NotBlocket/MyAdsView.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm90QmxvY2tldFxNeUFkc1ZpZXcuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Aleni/source/repos/Asp.Net-Core-MVC-Identity/AuthSystem/Views/NotBlocket/ProfilesView.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm90QmxvY2tldFxQcm9maWxlc1ZpZXcuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Aleni/source/repos/Asp.Net-Core-MVC-Identity/AuthSystem/Views/NotBlocket/SearchResults.cshtml]
