@@ -1,23 +1,15 @@
-﻿
-@using Microsoft.AspNetCore.Identity
-@using AuthSystem.Areas.Identity.Data
-
-@model NotBlocket2.Models.Ad
-
+﻿@model NotBlocket2.Models.Ad
 
 @{
     ViewData["Title"] = "CreateAd";
 }
 <h3>Create Ad</h3>
 
-@ViewBag.error
-
-
 
 <form asp-controller="NotBlocket" asp-action="CreateAd" method="post" enctype="multipart/form-data">
     <div class="form-group">
         <label for="File">Choose Image:</label>
-        <input type="file" id="file" name="file" required />
+        <input type="file" id="model.File" name="File" required />
     </div>
     <div class="form-group">
         <label for="Name">Name:</label>
@@ -35,7 +27,6 @@
         <label for="Price">Price:</label>
         <input type="number" id="model.Price" asp-for=Price required />
     </div>
-   
     <div class="form-group">
         <button type="submit">Upload Ad with Image</button>
     </div>

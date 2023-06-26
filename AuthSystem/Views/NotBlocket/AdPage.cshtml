@@ -1,0 +1,26 @@
+﻿@model NotBlocket2.Models.Ad
+
+@{
+    ViewData["Title"] = "Ad Page";
+}
+
+<h2>@Model.Name</h2>
+@ViewBag.error
+
+<div>
+    <strong>Price:</strong> @Model.Price
+</div>
+<div>
+    <strong>Description:</strong> @Model.Description
+</div>
+<div>
+    <strong>Category:</strong> @Model.Category
+</div>
+<div>
+    @if (!string.IsNullOrEmpty(Model.ImagePath)) {
+            <img src="@Model.ImagePath" alt="No Image" style="max-width:250px; max-height:150px;">
+    }
+    else {
+            <span>No image available</span>
+    }
+</div>

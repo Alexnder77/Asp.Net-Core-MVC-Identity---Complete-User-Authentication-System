@@ -165,6 +165,22 @@
       "PackagePath": "staticwebassets\\images\\20230403023945_4339_ipad.jpg"
     },
     {
+      "Id": "C:\\Users\\Aleni\\source\\repos\\Asp.Net-Core-MVC-Identity\\AuthSystem\\wwwroot\\images\\20230621045518_4522_original_35187481-1021-4409-b87a-ab5c600cd9bb_PXL_20230615_031140741.MP.jpg",
+      "PackagePath": "staticwebassets\\images\\20230621045518_4522_original_35187481-1021-4409-b87a-ab5c600cd9bb_PXL_20230615_031140741.MP.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Aleni\\source\\repos\\Asp.Net-Core-MVC-Identity\\AuthSystem\\wwwroot\\images\\20230621045655_1051_original_35187481-1021-4409-b87a-ab5c600cd9bb_PXL_20230615_031140741.MP.jpg",
+      "PackagePath": "staticwebassets\\images\\20230621045655_1051_original_35187481-1021-4409-b87a-ab5c600cd9bb_PXL_20230615_031140741.MP.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Aleni\\source\\repos\\Asp.Net-Core-MVC-Identity\\AuthSystem\\wwwroot\\images\\20230621045822_8670_original_35187481-1021-4409-b87a-ab5c600cd9bb_PXL_20230615_031140741.MP.jpg",
+      "PackagePath": "staticwebassets\\images\\20230621045822_8670_original_35187481-1021-4409-b87a-ab5c600cd9bb_PXL_20230615_031140741.MP.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Aleni\\source\\repos\\Asp.Net-Core-MVC-Identity\\AuthSystem\\wwwroot\\images\\20230621045836_2270_original_35187481-1021-4409-b87a-ab5c600cd9bb_PXL_20230615_031140741.MP.jpg",
+      "PackagePath": "staticwebassets\\images\\20230621045836_2270_original_35187481-1021-4409-b87a-ab5c600cd9bb_PXL_20230615_031140741.MP.jpg"
+    },
+    {
       "Id": "C:\\Users\\Aleni\\source\\repos\\Asp.Net-Core-MVC-Identity\\AuthSystem\\wwwroot\\images\\Signature.jpg",
       "PackagePath": "staticwebassets\\images\\Signature.jpg"
     },

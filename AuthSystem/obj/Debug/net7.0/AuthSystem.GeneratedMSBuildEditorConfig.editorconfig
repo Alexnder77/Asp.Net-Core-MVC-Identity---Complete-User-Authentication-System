@@ -44,12 +44,16 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Aleni/source/repos/Asp.Net-Core-MVC-Identity/AuthSystem/Views/Ad/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Aleni/source/repos/Asp.Net-Core-MVC-Identity/AuthSystem/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Aleni/source/repos/Asp.Net-Core-MVC-Identity/AuthSystem/Views/Home/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+[C:/Users/Aleni/source/repos/Asp.Net-Core-MVC-Identity/AuthSystem/Views/NotBlocket/AdPage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm90QmxvY2tldFxBZFBhZ2UuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Aleni/source/repos/Asp.Net-Core-MVC-Identity/AuthSystem/Views/NotBlocket/AdsView.cshtml]
@@ -68,16 +72,8 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm90QmxvY2tldFxFZGl0QWQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Aleni/source/repos/Asp.Net-Core-MVC-Identity/AuthSystem/Views/NotBlocket/Editprofile.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm90QmxvY2tldFxFZGl0cHJvZmlsZS5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Aleni/source/repos/Asp.Net-Core-MVC-Identity/AuthSystem/Views/NotBlocket/Editprofile2.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm90QmxvY2tldFxFZGl0cHJvZmlsZTIuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Aleni/source/repos/Asp.Net-Core-MVC-Identity/AuthSystem/Views/NotBlocket/Login.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm90QmxvY2tldFxMb2dpbi5jc2h0bWw=
+[C:/Users/Aleni/source/repos/Asp.Net-Core-MVC-Identity/AuthSystem/Views/NotBlocket/MyAdsView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm90QmxvY2tldFxNeUFkc1ZpZXcuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Aleni/source/repos/Asp.Net-Core-MVC-Identity/AuthSystem/Views/NotBlocket/ProfilesView.cshtml]

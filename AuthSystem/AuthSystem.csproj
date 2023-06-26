@@ -7,6 +7,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Remove="Views\Ad\CreateAd.cshtml" />
+    <Content Remove="Views\Ad\EditAd.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNet.Identity.Core" Version="2.2.3" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="7.0.3" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="7.0.3" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.3" />
@@ -28,13 +34,12 @@
 
   <ItemGroup>
     <None Include="..\.editorconfig" Link=".editorconfig" />
+    <None Include="Views\Ad\CreateAd.cshtml" />
+    <None Include="Views\Ad\EditAd.cshtml" />
     <None Include="Views\NotBlocket\AdsView.cshtml" />
     <None Include="Views\NotBlocket\CreateAccount.cshtml" />
     <None Include="Views\NotBlocket\CreateAd.cshtml" />
     <None Include="Views\NotBlocket\EditAd.cshtml" />
-    <None Include="Views\NotBlocket\Editprofile.cshtml" />
-    <None Include="Views\NotBlocket\Editprofile2.cshtml" />
-    <None Include="Views\NotBlocket\Login.cshtml" />
     <None Include="Views\NotBlocket\ProfilesView.cshtml" />
     <None Include="Views\NotBlocket\SearchResults.cshtml" />
     <None Include="Views\NotBlocket\SelectWithDataReader.cshtml" />
