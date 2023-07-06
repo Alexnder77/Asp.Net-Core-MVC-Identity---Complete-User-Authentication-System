@@ -33,7 +33,6 @@
     <None Include="Views\NotBlocket\CreateAd.cshtml" />
     <None Include="Views\NotBlocket\EditAd.cshtml" />
     <None Include="Views\NotBlocket\SearchResults.cshtml" />
-    <None Include="Views\NotBlocket\SelectWithDataReader.cshtml" />
     <None Include="Views\NotBlocket\Start.cshtml" />
   </ItemGroup>
 

@@ -1,56 +1,88 @@
 ﻿@model IEnumerable<NotBlocket2.Models.Ad>
 
+@using Microsoft.AspNetCore.Http
+
 @{
-	ViewData["Title"] = "SearchResults";
+    ViewData["Title"] = "SearchResults";
+    var sort = Context.Session.GetString("Sort");
+    var search = Context.Session.GetString("Search");
 }
-<h1>Searchresult</h1>
 
-Search term: @ViewBag.search
-
-sort: @ViewBag.sort
-
-@ViewBag.error
-
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                <a href="SearchResults?search=@ViewBag.search&sort=Id">
-                @Html.DisplayNameFor(model => model.Id)
-                </a>
-            </th>
-            <th>
-                <a href="SearchResults?search=@ViewBag.search&sort=Name">
-                @Html.DisplayNameFor(model => model.Name)
-                </a>
-            </th>
-            <th>
-                @*Enables sorting by price while keeping the searchterm*@
-
-                <a href="SearchResults?search=@ViewBag.search&sort=Price">
-                    @Html.DisplayNameFor(model => model.Price)
-                </a>
-            </th>
-
-        </tr>
-    </thead>
-    
-    
-    <tbody>
-        @foreach (var item in Model) {
-            <tr>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Id)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Name)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Price)
-                </td>
-            </tr>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Search Results</title>
+    <style>
+        /* Custom styles */
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
         }
-    </tbody>
-    
-</table>
 
+        .form-group.col-md-4 {
+            margin-bottom: 20px;
+        }
+
+        .table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        .table th,
+        .table td {
+            padding: 8px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .table th {
+            background-color: #f2f2f2;
+            font-weight: bold;
+        }
+
+        .table img {
+            max-width: 250px;
+            max-height: 150px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Ads</h1>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    <a href="SearchResults?search=@search&amp;sort=Name">Name</a>
+                </th>
+                <th>
+                    <a href="SearchResults?search=@search&amp;sort=Price">Price</a>
+                </th>
+                <th>
+                    Description
+                </th>
+                <th>
+                    Category
+                </th>
+                <th>
+                    Image
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td><a href="@Url.Action("AdPage", "NotBlocket", new { adId = item.Id })">@item.Name</a></td>
+                    <td>@item.Price</td>
+                    <td>@item.Description</td>
+                    <td>@item.Category</td>
+                    <td><img src="@item.ImagePath" alt="No Image"></td>
+                    <td></td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</body>
+</html>

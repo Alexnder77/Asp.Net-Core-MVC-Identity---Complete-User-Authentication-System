@@ -1,10 +1,7 @@
-﻿using System.Linq;
-using System.Security.Claims;
-using Microsoft.AspNet.Identity;
-using Microsoft.AspNetCore.Identity;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using NotBlocket2.Models;
-//using Umbraco.Core.Models;
+using Microsoft.AspNetCore.Http;
+
 
 namespace NotBlocket2.Controllers {
 
@@ -14,7 +11,8 @@ namespace NotBlocket2.Controllers {
 
         [HttpGet]
         public IActionResult Start() {
-
+            
+            /*
             List<string> locationNames = new List<string>();
             List<int> ProfileCountPerLocation = new List<int>();
             string errormsg = string.Empty;
@@ -25,28 +23,39 @@ namespace NotBlocket2.Controllers {
 
             ViewBag.LocationNames = locationNames;
             ViewBag.ProfileCountPerLocation = ProfileCountPerLocation;
+
+            */
             return View();
         }
 
         [HttpGet]
         public IActionResult SearchResults(string search, string sort) {
+            //Get the Ad list
+            List<Ad> Adlist = new List<Ad>();
+            AdMethods pm = new AdMethods();
+            string error = "";
 
             //Dealing with the null-values
-            if (sort == null) { sort = "Name"; }
+            if (sort == null) { 
+                sort = "Name";
+                HttpContext.Session.SetString("Sort", sort);
+            }
+
             if (search != null) {
+                // Store search and sort values in session
+                HttpContext.Session.SetString("Search", search);
+                HttpContext.Session.SetString("Sort", sort);
 
-                ViewBag.search = search;
-                ViewBag.sort = sort;
-
-                //Get the Ad list
-                List<Ad> Adlist = new List<Ad>();
-                AdMethods pm = new AdMethods();
-                string error = "";
                 Adlist = pm.GetAdsWithDataSet2(sort, search, out error);
                 ViewBag.error = error;
+
                 return View(Adlist);
             }
-            return RedirectToAction("Start");
+
+            // search is empty
+            Adlist = pm.GetAdsWithDataSet(out error);
+
+            return View(Adlist);
         }
 
 
@@ -66,9 +75,7 @@ namespace NotBlocket2.Controllers {
                 ViewBag.antal = rowsAffected;
                 return View();
             }
-
             //ad.ImagePath = await am.SaveImageAsync(file);
-
             rowsAffected = await am.InsertAdAsync(ad);
 
             if (rowsAffected == 1) {
@@ -133,24 +140,9 @@ namespace NotBlocket2.Controllers {
             return View(ad);
         }
 
-
-
-        [HttpGet]
-        public ActionResult ProfilesView() {
-            List<Profile> Profilelist = new List<Profile>();
-            ProfileMethods pm = new ProfileMethods();
-            string error = "";
-            Profilelist = pm.GetPersonWithDataSet(out error);
-            ViewBag.error = error;
-            return View(Profilelist);
-        }
-
 		
 		public IActionResult AdsView() {
-            ProfileMethods pm = new ProfileMethods();
-            LocationMethods lm = new LocationMethods();
             AdMethods am = new AdMethods();
-
 
 			string selectedValue = null;
 		    if (Request.Method == "POST") {
@@ -158,19 +150,14 @@ namespace NotBlocket2.Controllers {
 			}
 			ViewBag.location = selectedValue;
             
-			ViewModelProfileAdsLocation myModel = new ViewModelProfileAdsLocation
-            {
-                ProfileList = pm.GetPersonWithDataSet(out string errormsg),
-                LocationList = lm.GetLocationsWithDataSet(out string errormsg2),
-
+			AdLists myModel = new AdLists {
                 //ad list for the categories dropdown
                 AdList = am.GetAdsWithDataSet(out string errormsg3),
 
                 //seperate ad list for the view
-				FilterdAdList = am.GetAdsWithDataSet(out string errormsg4, selectedValue)
-
+				FilterdAdList = am.GetAdsWithDataSet(out string errormsg4,selectedValue)
 			};
-            ViewBag.error = "1: " + errormsg + "2: " + errormsg2 + "3: " + errormsg3 + "4: " + errormsg4;
+            ViewBag.error = "3: " + errormsg3 + "4: " + errormsg4;
 
 
 			return View(myModel);
@@ -184,13 +171,12 @@ namespace NotBlocket2.Controllers {
            
             AdMethods am = new AdMethods();
 
-
-            ViewModelProfileAdsLocation myModel = new ViewModelProfileAdsLocation {
-                AdList = am.GetAdsWithDataSetForUser(userId, out string adErrorMsg), // Filter ads by user ID
-               
+            AdLists myModel = new AdLists {
+                //ad list for the categories dropdown
+                AdList = am.GetAdsWithDataSet(out string errormsg3),
             };
 
-            ViewBag.error = $" 3: {adErrorMsg}";
+            ViewBag.error = $" 3: {errormsg3}";
 
             return View(myModel);
 
